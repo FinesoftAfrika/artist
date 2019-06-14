@@ -26,20 +26,20 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-d398549d44b6a51866e1.js"
+    "url": "webpack-runtime-0a969bbd4fa18f29df22.js"
   },
   {
-    "url": "app-b5ca7a1b8c1c46f7e65c.js"
+    "url": "app-b4436a306b5b347c564a.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-66becd939dcb394494f0.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "695fbcbc21dafcae45f997213b9a9a4a"
+    "revision": "2b35a70fd4325eabbc9cc75321233641"
   },
   {
-    "url": "styles.efb79f3dccf8750fa75d.css"
+    "url": "styles.b5cd3790e50c9c728316.css"
   },
   {
     "url": "styles-8169b9847cc84f528336.js"
@@ -52,15 +52,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/404.html/page-data.json",
-    "revision": "f25ba2c5f1fd1ee256e2b9578d3971bb"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "cec7efce5d2f24ce34b8a701c14d4737"
+    "revision": "c965ae3cbba5097f2ff9245079d60784"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "422025b611a9cebf089c0027f154e311"
+    "revision": "b12a409f814a98bc699bb7a039b10306"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -82,7 +78,7 @@ const navigationRoute = new workbox.routing.NavigationRoute(({ event }) => {
   return idbKeyval.get(WHITELIST_KEY).then((customWhitelist = []) => {
     // Respond with the offline shell if we match the custom whitelist
     if (customWhitelist.includes(pathname)) {
-      const offlineShell = `/gatsby-starter-identity/offline-plugin-app-shell-fallback/index.html`
+      const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
       const cacheName = workbox.core.cacheNames.precache
 
       return caches.match(offlineShell, { cacheName }).then(cachedResponse => {
@@ -154,7 +150,7 @@ const messageApi = {
 
     pathnames = pathnames.map(({ pathname, includesPrefix }) => {
       if (!includesPrefix) {
-        return `/gatsby-starter-identity${pathname}`
+        return `${pathname}`
       } else {
         return pathname
       }
