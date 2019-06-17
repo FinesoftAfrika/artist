@@ -44,7 +44,10 @@ class Layout extends Component {
             >
               <html lang="en" />
             </Helmet>
+
+            <video autoplay="autoplay" muted loop id="myVideo"><source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" /></video>
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
+
               <div id="wrapper">{children}</div>
             </div>
           </>

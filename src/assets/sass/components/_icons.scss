@@ -10,6 +10,7 @@
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		
 		margin-top: -0.675em;
 
 		li {
@@ -19,10 +20,13 @@
 			a {
 				@include icon-alt(false, true);
 				position: relative;
+				
 				display: block;
 				width: 3.75em;
 				height: 3.75em;
+				opacity: 1.00;
 				border-radius: 100%;
+				//background-color: #000;
 				border: solid _size(border-width) _palette(border);
 				line-height: 3.75em;
 				overflow: hidden;

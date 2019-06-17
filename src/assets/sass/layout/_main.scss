@@ -4,7 +4,7 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
-/* Main */
+
 
 #main {
   @include vendor('transform-origin', '50% 50%');
@@ -14,14 +14,14 @@
     ('opacity #{_duration(main)} ease', 'transform #{_duration(main)} ease')
   );
   @include padding(4.5em, 3em);
-  background: _palette(bg);
+  //background: _palette(bg);
   border-radius: _size(border-radius);
   cursor: default;
   max-width: 100%;
-  opacity: 0.95;
+  //opacity: 0.10;
   position: relative;
   text-align: center;
-  width: 27em;
+  width: 67em;
 
   .avatar {
     position: relative;

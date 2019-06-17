@@ -7,8 +7,8 @@ export default function PageFooter() {
       <ul className="copyright">
         <li>&copy; {config.authorName}</li>
         <li>
-          Design: <a href="https://unsplash.com/">Unsplash</a> +{' '}
-          <a href="http://html5up.net">HTML5 UP</a>
+          <a href="https://www.finesoftafrika.com">Finesoft Afrika</a>  {' '}
+          <a href="#">  2019</a>
         </li>
       </ul>
     </footer>
