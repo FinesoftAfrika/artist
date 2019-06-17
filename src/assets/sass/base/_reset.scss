@@ -27,6 +27,10 @@
 		color: azure;
 	}
 
+	nav li {
+		display: inline;
+	}
+
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
 		display: block;
