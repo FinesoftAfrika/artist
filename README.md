@@ -3,12 +3,12 @@
 
 ## Screenshots
 
-![image](https://github.com/Ej-leone/Gonnect/blob/master/mockups%20jpegs/login%20page.jpg)
+![image](https://github.com/FinesoftAfrika/artist/blob/master/src/assets/screens/1.png)
 
-![image](https://github.com/Ej-leone/Gonnect/blob/master/mockups%20jpegs/menu%20page.jpg)
+![image](https://github.com/FinesoftAfrika/artist/blob/master/src/assets/screens/2.png)
 
 
-![image](https://github.com/Ej-leone/Gonnect/blob/master/mockups%20jpegs/menu%20page.jpg)
+![image](https://github.com/FinesoftAfrika/artist/blob/master/src/assets/screens/3.png)
 ## Install
 
 Make sure that you have the Gatsby CLI program installed:
