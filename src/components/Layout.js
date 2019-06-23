@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/main.scss';
+import vid from '../assets/images/bge.mp4'
 
 class Layout extends Component {
   constructor() {
@@ -45,7 +46,7 @@ class Layout extends Component {
               <html lang="en" />
             </Helmet>
 
-            <video autoplay="autoplay" muted loop id="myVideo"><source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" /></video>
+            <video autoplay="autoplay" muted loop id="myVideo"><source src={vid} type="video/mp4" /></video>
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
 
               <div id="wrapper">{children}</div>
