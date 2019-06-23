@@ -1,10 +1,14 @@
 # Artist Starte
 
 
-## Screenshot
+## Screenshots
+
+![image](https://github.com/Ej-leone/Gonnect/blob/master/mockups%20jpegs/login%20page.jpg)
+
+![image](https://github.com/Ej-leone/Gonnect/blob/master/mockups%20jpegs/menu%20page.jpg)
 
 
-
+![image](https://github.com/Ej-leone/Gonnect/blob/master/mockups%20jpegs/menu%20page.jpg)
 ## Install
 
 Make sure that you have the Gatsby CLI program installed:
