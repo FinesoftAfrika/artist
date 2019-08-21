@@ -83,13 +83,17 @@
 	textarea {
 		@include vendor('appearance', 'none');
 		border-radius: _size(border-radius);
-		border: solid 1px _palette(border);
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-bottom: solid 1px _palette(border);
+		background: transparent;
 		color: inherit;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 100%;
+		
 
 		&:invalid {
 			box-shadow: none;

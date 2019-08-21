@@ -4,11 +4,11 @@ import config from '../../config';
 export default function PageFooter() {
   return (
     <footer id="footer">
-      <ul>
-        <input />
+      <ul className="copyright">
+        <input type="email" />
         <button type="button">JOIN US</button>
       </ul>
-      <ul>
+      <ul className="copyright">
         <button type="button">Youtube</button>
         <button type="button">Follow</button>
       </ul>
