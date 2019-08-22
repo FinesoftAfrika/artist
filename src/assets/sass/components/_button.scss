@@ -61,3 +61,21 @@
 			opacity: 0.5;
 		}
 	}
+	.buttonyoutube{
+		@include vendor('appearance', 'none');
+		@include vendor('transition', (
+			'background-color #{_duration(transition)} ease-in-out',
+			'border-color #{_duration(transition)} ease-in-out',
+			'color #{_duration(transition)} ease-in-out'
+		));
+		background-color: #c4302b;
+	}
+	.buttonspotify {
+		@include vendor('appearance', 'none');
+		@include vendor('transition', (
+			'background-color #{_duration(transition)} ease-in-out',
+			'border-color #{_duration(transition)} ease-in-out',
+			'color #{_duration(transition)} ease-in-out'
+		));
+		background-color: #1ED761;
+	}
